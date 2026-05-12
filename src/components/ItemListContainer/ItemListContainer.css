@@ -1,0 +1,13 @@
+.item-list-container__title {
+  text-align: center;
+  padding-top: 32px;
+  font-size: 1.8rem;
+  color: #111;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px;
+  font-size: 1.2rem;
+  color: #555;
+}

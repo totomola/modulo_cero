@@ -1,0 +1,151 @@
+.checkout {
+    max-width: 50 rem;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.checkout--success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+.checkout__title {
+    font-size: 1.8rem;
+    color: #111;
+    margin-bottom: 2rem;
+}
+
+.checkout__layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.checkout__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.checkout__form h3 {
+    font-size: 1.2rem;
+    color: #111;
+    margin: 0;
+}
+
+.checkout__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+
+.checkout__field label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.checkout__field input {
+    padding: 0.625rem 0.875rem;
+    border: 0.125rem solid #ddd;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    outline: none;
+}
+
+.checkout__field input:focus {
+    border-color: #c9a84c;
+}
+
+.checkout__error {
+    font-size: 0.8rem;
+    color: #e53935;
+}
+
+.checkout__submit {
+    padding: 0.875rem;
+    background-color: #c9a84c;
+    color: #111;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.checkout__submit:hover {
+    background-color: #b8922f;
+}
+
+.checkout__submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.checkout__summary {
+    background-color: #f5f5f5;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    height: fit-content;
+}
+
+.checkout__summary h3 {
+    font-size: 1.2rem;
+    color: #111;
+    margin: 0;
+}
+
+.checkout__summary-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.checkout__summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-top: 0.125rem solid #ddd;
+    padding-top: 0.75rem;
+    color: #111;
+}
+
+.checkout__order-id {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c9a84c;
+    background-color: #f5f5f5;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.checkout__thanks {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .checkout {
+        padding: 24px 16px;
+    }
+
+    .checkout__layout {
+        grid-template-columns: 1fr;
+    }
+
+    .checkout__summary {
+        order: -1;
+    }
+}

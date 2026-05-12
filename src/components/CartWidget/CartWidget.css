@@ -1,0 +1,8 @@
+.cartwidget {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}

@@ -1,14 +1,20 @@
-# Módulo Cero
+# MÓDULO CERO
 
 E-commerce SPA de muebles variados de diseño desarrollado con React y Firebase.
 
 ---
 
-##
+## DASHBOARD PRINCIPAL
+
+![Dashboard de la página](./src/assets/modulo_cero.jpg)
+---
+
+## DASHBOARD DE DETALLE DE PRODUCTO
+![Dashboard del producto](./src/assets/modulo_cero_detail.jpg)
 
 ---
 
-##
+## Tecnologías utilizadas:
 
 - **React 18** — biblioteca de UI
 - **Vite** — bundler y entorno de desarrollo
@@ -40,7 +46,7 @@ El proyecto utiliza dos servicios de Firebase:
 
 ## 👨‍💻 Autor
 
-**Tomas Mola**
+**Tomás Mola**
 
 - GitHub: [@totomola](https://github.com/totomola)
-- Linkedin: 
+- Linkedin: [@totomola](https://www.linkedin.com/in/tom%C3%A1s-mola-563ba51b7/)

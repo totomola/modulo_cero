@@ -49,4 +49,4 @@ El proyecto utiliza dos servicios de Firebase:
 **Tomás Mola**
 
 - GitHub: [@totomola](https://github.com/totomola)
-- Linkedin: [@totomola](https://www.linkedin.com/in/tom%C3%A1s-mola-563ba51b7/)
+- Linkedin: [Tomás Mola](https://www.linkedin.com/in/tom%C3%A1s-mola-563ba51b7/)

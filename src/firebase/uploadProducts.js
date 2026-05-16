@@ -121,6 +121,11 @@ const products = [
     stock: 4,
     description: 'Cama matrimonial con respaldo alto acolchado en terciopelo azul petróleo. Patas de madera de roble. Diseño contemporáneo y sofisticado.',
     image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=800&fit=crop'
+  },
+  {
+  name: 'Tomas Mola',
+  email: 'tomas@gmail.com',
+  phone: '+54 351 000 0000'
   }
 ]
 
